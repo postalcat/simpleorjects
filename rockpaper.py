@@ -84,10 +84,9 @@ while True:
 		print("<== User wins ==>")
 	else:
 		print("<== Computer wins ==>")
-	print("Do you want to play again? (Y/N)")
 	# if user input n or N then condition is True
-	ans = input().lower
-	if ans =='n':
+	ans = input("Do you want to play again? (Y/N)")
+	if ans =='N':
 		break
 # after coming out of the while loop
 # we print thanks for playing

@@ -9,7 +9,7 @@ int main()
     
     // Generates a random number between 1 and 100
     number = rand()%100 + 1; 
-    
+    printf("ok");
     // printf("The number is %d\n", number);
     // Keep running the loop 
     // until the number is guessed
@@ -35,3 +35,5 @@ int main()
     
     return 0;
 }
+
+

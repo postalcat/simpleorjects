@@ -88,3 +88,4 @@ while True:
 	if ans =='N':
 		break
 print("thanks for playing")
+print('ty')
